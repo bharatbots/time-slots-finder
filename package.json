@@ -3,9 +3,9 @@
   "version": "0.5.5",
   "description": "A module to extract available time slots from a calendar.",
   "main": "lib/index.js",
-  "repository": "https://github.com/PINPODEV/time-slots-finder.git",
+  "repository": "https://github.com/bharatbots/time-slots-finder.git",
   "bugs": {
-    "url": "https://github.com/PINPODEV/time-slots-finder/issues"
+    "url": "https://github.com/bharatbots/time-slots-finder/issues"
   },
   "keywords": [
     "calendar",
@@ -18,10 +18,10 @@
     "bookings",
     "available"
   ],
-  "homepage": "https://github.com/PINPODEV/time-slots-finder#readme",
+  "homepage": "https://github.com/bharatbots/time-slots-finder#readme",
   "author": "Pinpo Team <contact@pinpo.fr>",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "scripts": {
     "test": "jest",
     "build": "tsc",
@@ -47,6 +47,6 @@
   ],
   "dependencies": {
     "dayjs": "^1.9.3",
-    "ical2json": "^3.0.0"
+    "ical2json": "3.0.0"
   }
 }
